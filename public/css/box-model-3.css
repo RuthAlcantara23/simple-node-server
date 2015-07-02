@@ -1,0 +1,39 @@
+body {
+     font-family:Arial;
+}
+
+.whole {
+     background-color:#cbe5ff;
+}
+
+.preview {
+     background-color:#84befe;
+}
+
+.container {
+     width:900px;
+}
+
+/* if link is not yet visited */
+a:link {
+     color:white;
+     background-color:#84befe;
+}
+
+/* if link is already visited*/
+a:visited {
+     color:white;
+     background-color:#84befe;
+}
+
+/* if link is hovered (mouse over) */
+a:hover {
+     color:#84befe;
+     background-color:white;
+}
+
+.rect {
+     position:fixed;
+     top:200px;
+     right:-5px;
+}
