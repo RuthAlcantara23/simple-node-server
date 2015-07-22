@@ -1,23 +1,33 @@
 p {
-    margin: 0px auto;/* this declaration makes the element center-aligned */
-    border: 1px solid black;
-    width: 80%;
-    font-size: 3em;
-    text-indent: 20px;
+margin: 0px auto;/* this declaration makes the element center-aligned */
+border: 1px solid black;
+width: 80%;
+font-size: 3em;
+text-indent: 20px;
 }
 
-h1 {margin: 0.5in;} /* inches  */
-h2 {line-height: 3cm;} /* centimeters */
-h3 {word-spacing: 4mm;} /* millimeters */
-h4 {font-size: 12pt;} /* points */
-h5 {font-size: 1pc;} /* picas */
-h6 {font-size: 12px;} /* px */
+h1 { line-height: 1.5em; } /*specifies the line height*/
+h2 { font-size: 1.2ex; }
+h3 { word-spacing: 4ch; }
+h4 { font-size: 10rem; }
+h5 { border: 1px solid black; width: 30%; }
 
+<div id="main">
+<div>
+Test (14 * 1.2 = 16.8px)
+<div>
+Test (16.8 * 1.2 = 20.16px)
+<div>
+Test (20.16 * 1.2 = 24.192px)
+</div>
+</div>
+</div>
+</div>
 #main {
-    font-size: 14px;
+font-size: 14px;
 }
 #main div {/* Applies to all div tags inside the tag with the id main */
-    font-size: 1.2em;
+font-size: 1.2em;
 }
 
 .sup {
@@ -28,3 +38,10 @@ h6 {font-size: 12px;} /* px */
     position: relative;
     bottom: -1ex;
 }
+
+h1 { margin: 0.5in; } /* inches  */
+h2 { line-height: 3cm; } /* centimeters */
+h3 { word-spacing: 4mm; } /* millimeters */
+h4 { font-size: 12pt; } /* points */
+h5 { font-size: 1pc; } /* picas */
+h6 { font-size: 12px; } /* px */

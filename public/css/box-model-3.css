@@ -1,39 +1,47 @@
 body {
      font-family:Arial;
 }
-
-.whole {
-     background-color:#cbe5ff;
-}
-
-.preview {
-     background-color:#84befe;
-}
-
-.container {
-     width:900px;
-}
-
-/* if link is not yet visited */
-a:link {
-     color:white;
-     background-color:#84befe;
-}
-
-/* if link is already visited*/
-a:visited {
-     color:white;
-     background-color:#84befe;
-}
-
-/* if link is hovered (mouse over) */
-a:hover {
-     color:#84befe;
-     background-color:white;
-}
-
 .rect {
      position:fixed;
      top:200px;
      right:-5px;
+     border-style: dashed;
+     border-color: #84befe;
+     border-width: 2px;
+     text-align: center;
+     padding-top: 20px;
+     padding-right: 5px;
 }
+
+rect a {
+    color: #84befe;
+    text-align: center;
+}
+
+.rect a:hover {
+          text-decoration:underline;
+     }
+.whole {
+     width: 900px;
+     margin: auto;
+     background-color:#cbe5ff;
+     padding: 40px;
+     
+}
+
+.preview {
+     background-color:#84befe;
+     width: 750px;
+     height: 300px;
+     border:solid #84befe;
+     position:relative;
+     z-index:0;
+     margin-left:170px;
+}
+
+.container {
+     width:900px;
+     
+}
+
+

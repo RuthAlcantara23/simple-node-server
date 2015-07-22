@@ -1,0 +1,54 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.rect {
+    position: fixed;
+    border-top-style: dashed;
+    border-left-style: dashed;
+    border-bottom-style: dashed;
+    border-radius: 10px;
+    border-width: 2px;
+    top: 200px;
+    right: -5px;
+    color: #84befe;
+    background-color: white;
+    width: 55px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+.rect a {
+    color: #84befe;
+    text-align: center;
+    word-spacing: 100px;
+}
+
+.rect a:link {
+    text-decoration: none;
+}
+
+.rect a:visited {
+    text-decoration: none;
+}
+
+.rect a:hover {
+    text-decoration: underline;
+}
+
+.rect a:active {
+    text-decoration: none;
+}
+
+.a {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.whole {
+    width: 900px;
+    margin: auto;
+    background-color: #cbe5ff;
+    background: linear-gradient(to top, #84befe, white);
+

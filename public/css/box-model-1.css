@@ -1,20 +1,125 @@
-p {
-     background-color: lightblue;
-     width: 200px;
-     /*The box model properties*/
-     padding: 25px;
-     border: 25px solid gray;
-     margin: 25px;
+p{
+background-color: lightblue;
+width: 200px;
+/*The box model properties*/
+padding: 25px;
+border: 25px solid navy;
+margin: 25px;
+}
+
+p{
+background-color: lightblue;
+width: 200px;
+
+padding-top: 25px;
+padding-right: 25px;
+padding-bottom: 25px;
+padding-left: 25px;
+/*SAME AS*/
+padding: 25px;
+}
+
+p{
+background-color: lightblue;
+width: 200px;
+
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 30px;
+padding-left: 40px;
+/*SAME AS*/
+padding: 10px 20px 30px 40px;
+/*first value for top, second for right, third for bottom and fourth for left*/
+}
+
+p{
+background-color: lightblue;
+width: 200px;
+padding: 25px;
+
+/*Don't forget to set the border-style property first.*/
+border-style:solid;
+border-width:5px;
+}
+
+p{
+background-color: lightblue;
+width: 200px;
+padding: 25px;
+
+/*Don't forget to set the border-style property first.*/
+border-style:solid;
+border-width:25px;
+}
+
+p{
+background-color: lightblue;
+width: 200px;
+padding: 25px;
+
+/*Don't forget to set the border-style property first.*/
+border-style:solid;
+border-color:gray;
+}
+
+p{
+background-color: lightblue;
+width: 200px;
+padding: 25px;
+
+/*All three border properties together*/
+border-style:solid;
+border-width:25px;
+border-color:gray;
+}
+
+p{
+background-color: lightblue;
+width: 200px;
+padding: 25px;
+
+/*All three border properties together*/
+border-style:solid;
+border-width:25px;
+border-color:gray;
+/*EQUIVALENT TO*/
+border: 25px solid gray;
+}
+
+p{
+background-color: lightblue;
+width: 200px;
+padding: 25px;
+border: 25px;
+
+margin-top: 25px;
+margin-right: 25px;
+margin-bottom: 25px;
+margin-left: 25px;
+/*SAME AS*/
+margin: 25px;
+}
+
+p{
+background-color: lightblue;
+width: 200px;
+
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px;
+/*SAME AS*/
+margin: 10px 20px 30px 40px;
+/*first value for top, second for right, third for bottom and fourth for left*/
 }
 
 .cent {
-     margin: auto;
-     background: lightblue;
-     width: 66%;
+margin: auto;
+background: lightblue;
+width: 66%;
 }
-
 .uncent {
-     margin: 20px;
-     background: lightblue;
-     width: 66%;
+margin: 20px;
+background: lightblue;
+width: 66%;
 }

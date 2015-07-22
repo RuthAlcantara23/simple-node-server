@@ -1,5 +1,15 @@
-h1 {color: blue; text-align: center}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-color: yellow;
+}
 
+h1 {
+color: #FF0000;
+margin-left: 40px;
+} 
 fieldset {
 background-color: gray; /* Sets the background color of the element */
 padding: 3px; /* Adjusts the top, right, bottom and left padding of the element */
@@ -11,7 +21,6 @@ input {
 font-family: "Courier Sans"; /* Sets the font of the element */
 font-size: 20px; /* Sets the font size of the element */
 }
-
 #text {
 font-weight: bold; /* Sets the thickness of characters in a text (normal, bold or a constant value) */
 font-family: "Times New Roman", Georgia, Serif;
@@ -25,7 +34,6 @@ list-style-type: square; /* Specifies the type of list-item marker in a list (sq
 #green-colors {
 list-style-type: upper-roman; /* (upper-roman lower-roman, lower-alpha or upper-alpha) */
 }
-
 img {
 width: 80px;
 height: 60px;
@@ -39,7 +47,6 @@ text-transform: uppercase; /* Sets the capitalization of text (uppercase, lowerc
 border: 5px solid black; /* Sets the border of the element (line, style and color) */
 vertical-align: middle; /* Sets the vertical alignment of an element (top, middle or bottom) */
 }
-
 img {
 width: 80px;
 height: 60px;
@@ -53,7 +60,6 @@ text-transform: uppercase; /* Sets the capitalization of text (uppercase, lowerc
 border: 5px solid black; /* Sets the border of the element (line, style and color) */
 vertical-align: middle; /* Sets the vertical alignment of an element (top, middle or bottom) */
 }
-
 /* if link is not yet visited */
 a:link {
 color: #FF0000;
@@ -78,3 +84,54 @@ color: #0000FF;
 p::first-line {
     color: #FF0000;
 }
+</style>
+<title>CMSC 2 Example</title>
+<link rel="style
+sheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+<h1>Hello World!</h1>
+<h6>How are you?</h6>
+<img src="/images/baby.jpg" style="width:150px;height:100px;"/>
+<fieldset>
+<legend>Form</legend>
+Username: <input type="text"/>
+<input type="submit"/>
+</fieldset>
+<p id="text">
+This text is inside a p tag under the id text.
+</p>
+<div>
+This text is inside a div tag.
+</div>
+This is a list of colors:
+<ul id="colors">
+<li>Green</li>
+<ol id="green-colors">
+<li>Apple Green</li>
+<li>Blue Green</li>
+<li>Light Green</li>
+</ol>
+<li>Blue</li>
+<li>Red</li>
+<li>Orange</li>
+</ul>
+<p class="text">
+<img src="baby.jpg" alt="This is a cute baby."/> This text is inside a p tag under the class text.
+</p>
+<p class="text">
+<img src="baby.jpg" alt="This is a cute baby."/> This text is inside a p tag under the class text.
+</p>
+
+<div class="text">
+This text is inside a div tag under the class text.
+</div>
+
+<div class="text">
+This text is inside a div tag under the class text.
+</div>
+<p>
+This is a paragraph. A very very long paragraph to give you an example of what pseudo-elements can do. I hope you enjoy the tutorials. Kthxbye!
+</p>
+</body>
+</html>
